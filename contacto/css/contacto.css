@@ -18,8 +18,9 @@ h2 {
 }
 
 body {
-  background: white;
-}
+  background: url("../../imagenes/background.png");
+  background-size: contain;}
+
 
 .underline {
   border-bottom: solid 2px#7ABA96;
