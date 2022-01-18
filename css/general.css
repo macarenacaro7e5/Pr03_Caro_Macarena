@@ -27,21 +27,13 @@ nav {
 
 }
 
-ul {
-    float: middle;
-    list-style-type: none;
-}
-
-li {
-
-    display: inline-block;
+li { display: inline-block;
     text-transform: uppercase;
     margin: auto;
     width: auto;
     padding: 5px;
     position: relative;
 }
-
 
 .menu a {
     color: black;
@@ -80,13 +72,6 @@ li {
     margin-bottom: 0px;
 }
 
-/* enlaces de los items del menu desplegable */
-
-.menu ul ul a {
-    line-height: 120%;
-    padding: 0px;
-}
-
 /* items del menu desplegable al pasar el ratón */
 
 .menu ul li:hover>ul {
@@ -95,6 +80,10 @@ li {
     background-color: rgb(252, 252, 252);
     ;
 }
+
+
+
+/* FOOTER */
 
 .footer {
     clear: both;

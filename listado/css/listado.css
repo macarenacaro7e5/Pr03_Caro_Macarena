@@ -1,6 +1,11 @@
 
 /*       GENERAL       */
 
+body {
+    background: url("../../imagenes/background_b&b.png");
+    background-size: contain;
+}
+
 h2 {text-align: center;}
 .underline {
     border-bottom: solid 2px#7ABA96;
